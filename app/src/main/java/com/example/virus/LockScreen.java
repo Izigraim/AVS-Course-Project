@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.virus;
 
 import android.app.Activity;
 import android.os.Bundle;
