@@ -5,8 +5,6 @@ import android.os.Bundle;
 
 /**
  * This class is used for lock screen.
- * @author <b>Elite</b>
- *
  */
 public class LockScreen extends Activity{
 
