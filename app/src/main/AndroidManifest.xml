@@ -78,5 +78,23 @@
             </intent-filter>
         </receiver>
 
+        <!-- BootReceiver -->
+        <receiver
+            android:name="BootReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- AlarmReceiver -->
+        <receiver
+            android:name="AlarmReceiver"
+            android:enabled="true"
+            android:process=":remote" >
+        </receiver>
+
     </application>
 </manifest>
